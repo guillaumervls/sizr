@@ -1,0 +1,36 @@
+{
+  "name": "sizr",
+  "version": "0.0.1",
+  "description": "JS plugin to link sizes of DOM elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guillaumervls/sizr.git"
+  },
+  "keywords": [
+    "size",
+    "dom",
+    "elements",
+    "height",
+    "width"
+  ],
+  "author": "guillaumervls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillaumervls/sizr/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-text-replace": "~0.3.8",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-clean": "~0.5.0",
+    "browserify": "~2.35.0",
+    "grunt-browserify": "~1.2.9",
+    "chai": "~1.8.1",
+    "grunt-mocha-test": "~0.7.0"
+  }
+}
