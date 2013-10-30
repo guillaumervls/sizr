@@ -14,7 +14,7 @@ module.exports = function (windowArg, jqueryArg) {
   return module.exports;
 };
 
-module.exports.VERSION = '0.0.1';
+module.exports.VERSION = '0.0.1'; // Don't change it here, but in package.json
 
 module.exports._groupBy = function (objArray, signatureFunc) {
   var result = [];
@@ -35,6 +35,7 @@ module.exports._groupBy = function (objArray, signatureFunc) {
 };
 
 function process(widthOrHeight) {
+  $('[data-sizr-' + widthOrHeight + '-group]')[widthOrHeight]('');
   var groups = module.exports._groupBy(Array.prototype.slice.call($('[data-sizr-' + widthOrHeight + '-group]')), function (e) {
     return e.getAttribute('data-sizr-' + widthOrHeight + '-group');
   });
