@@ -1,8 +1,8 @@
 {
   "name": "sizr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JS plugin to link sizes of DOM elements",
-  "main": "index.js",
+  "main": "src/sizr.js",
   "scripts": {
     "test": "grunt test"
   },
